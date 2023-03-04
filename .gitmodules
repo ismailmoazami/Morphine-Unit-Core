@@ -1,3 +1,6 @@
 [submodule "cairo_contracts"]
 	url = https://github.com/OpenZeppelin/cairo-contracts
 	path = morphineTest/lib/cairo_contracts
+[submodule "Empiric"]
+	path = lib/Empiric
+	url = https://github.com/Astraly-Labs/Empiric
