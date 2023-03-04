@@ -1,0 +1,71 @@
+[
+    {
+        "data": [
+            {
+                "name": "previousOwner",
+                "type": "felt"
+            },
+            {
+                "name": "newOwner",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "OwnershipTransferred",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            {
+                "name": "owner_",
+                "type": "felt"
+            }
+        ],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "name": "key_name_",
+                "type": "felt"
+            },
+            {
+                "name": "key_",
+                "type": "felt"
+            }
+        ],
+        "name": "add_empiric_key",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "key_name_",
+                "type": "felt"
+            }
+        ],
+        "name": "get_empiric_key",
+        "outputs": [
+            {
+                "name": "result",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "key_",
+                "type": "felt"
+            }
+        ],
+        "name": "remove_empiric_key",
+        "outputs": [],
+        "type": "function"
+    }
+]
